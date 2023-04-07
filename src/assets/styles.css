@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@500&display=swap');
+
+.v-toolbar__title {
+    font-family: 'Abril+Fatface';
+    font-weight: 600;
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+}
+.v-toolbar__title:hover{
+    cursor: pointer;
+}
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+p.confirmation{
+    font-family: 'Poppins';
+    color: #b9bbc1;
+}
+
+/* .cdrop.v-label{
+    font-family: 'Poppins';
+}
+.phonebox.v-label{
+    font-family: 'Abril+Fatface';
+} */
+.profile{
+    width: 100%;
+    min-height: 100%;
+}
+.login{
+    height: 100% !important
+}
+/* body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../assets/loginBack.png');
+} */
